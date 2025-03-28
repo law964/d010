@@ -38,6 +38,7 @@
 
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 
 }
 
@@ -49,6 +50,7 @@ body {
 }
 
 header{
+    display: block;
     background-color: var(--cor04);
     color: white;
     background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
